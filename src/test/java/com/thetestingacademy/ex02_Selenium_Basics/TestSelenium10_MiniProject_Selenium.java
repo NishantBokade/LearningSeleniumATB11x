@@ -1,11 +1,12 @@
 package com.thetestingacademy.ex02_Selenium_Basics;
+import com.thetestingacademy.CommonToAll;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestSelenium10_MiniProject_Selenium extends CommonToAll{
+public class TestSelenium10_MiniProject_Selenium extends CommonToAll {
 
 
     @Description("Open the URL")
